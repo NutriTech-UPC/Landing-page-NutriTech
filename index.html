@@ -387,24 +387,27 @@
       </div>
     </section>
 
-    <!-- Video placeholder -->
-    <section class="video-section" id="video">
-      <div class="container">
-        
+   <!-- Video placeholder -->
+<section class="video-section" id="video">
+    <div class="container">
         <h2 class="section-title reveal">Descubre cómo funciona NutriTech</h2>
         <p class="video-section__subtitle reveal">Mira el video y conoce todas las funcionalidades de la plataforma.</p>
+        
         <div class="video-placeholder reveal" id="videoPlaceholder">
-          
-          <div class="video-placeholder__inner">
-            <div class="video-placeholder__icon" aria-hidden="true">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-            </div>
-            <p class="video-placeholder__text">Espacio reservado para el video explicativo</p>
-            
-          </div>
+            <!-- Iframe de YouTube que reemplaza al placeholder -->
+            <iframe 
+                width="100%" 
+                height="500" 
+                src="https://www.youtube.com/embed/SeHohsKxiVU" 
+                title="Reproductor de video NutriTech" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen
+                style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            </iframe>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
 
     <!-- Final CTA -->
     <section class="cta-final">
